@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <!-- Thẻ meta viewport quan trọng để kích hoạt kịch bản Responsive -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bố Cục Trang Web Responsive (RWD)</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        HEADER - BỐ CỤC RESPONSIVE
+    </div>
+
+    <!-- Navigation -->
+    <div class="nav">
+        <a href="#">Trang chủ</a>
+        <a href="#">Giới thiệu</a>
+        <a href="#">Sản phẩm</a>
+        <a href="#">Dịch vụ</a>
+        <a href="#">Liên hệ</a>
+    </div>
+
+    <!-- Container chứa Sidebar & Main Content -->
+    <div class="container">
+        <!-- Sidebar Trái -->
+        <div class="sidebar">
+            <h3>Sidebar Trái</h3>
+            <p>Danh mục phụ hoặc quảng cáo bên trái.</p>
+        </div>
+
+        <!-- Nội dung chính -->
+        <div class="main-content">
+            <h2>Nội Dung Chính (Main Content)</h2>
+            <p>Khi hiển thị trên máy tính (Desktop), giao diện sẽ chia làm 3 cột (Sidebar Trái - Nội Dung - Sidebar Phải).</p>
+            <br>
+            <p>Khi thu nhỏ màn hình hoặc xem trên thiết bị di động (Mobile/Tablet), nhờ thuộc tính <code>flex-wrap</code> và <code>Media Queries</code>, các cột sẽ tự động xếp chồng lên nhau theo chiều dọc giúp trải nghiệm người dùng luôn mượt mà.</p>
+        </div>
+
+        <!-- Sidebar Phải -->
+        <div class="sidebar">
+            <h3>Sidebar Phải</h3>
+            <p>Tin tức nổi bật hoặc tiện ích bên phải.</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        FOOTER &copy; 2026 CodeGym RWD Practice
+    </div>
+
+</body>
+</html>
